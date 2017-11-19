@@ -1,2 +1,3 @@
 # Linux-Notebook
-note linux command usage and other konwledge
+
+Linux command usage and other Linux general konwledge.
