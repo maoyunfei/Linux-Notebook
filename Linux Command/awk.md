@@ -104,6 +104,72 @@ $ awk -va=1 '{print $1,$1+a}' log.txt
 
 ` $ awk -f cal.awk log.txt `
 ### 运算符
+<table class="reference">
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>= += -= *= /= %= ^= **=</td>
+<td>赋值</td>
+</tr>
+<tr>
+<td>?:</td>
+<td>C条件表达式</td>
+</tr>
+<tr>
+<td>||</td>
+<td>逻辑或</td>
+</tr>
+<tr>
+<td>&amp;&amp;</td>
+<td>逻辑与</td>
+</tr>
+<tr>
+<td>~ ~!</td>
+<td>匹配正则表达式和不匹配正则表达式</td>
+</tr>
+<tr>
+<td>&lt; &lt;= &gt; &gt;= != ==</td>
+<td>关系运算符</td>
+</tr>
+<tr>
+<td>空格</td>
+<td>连接</td>
+</tr>
+<tr>
+<td>+ -</td>
+<td>加，减</td>
+</tr>
+<tr>
+<td>* / %</td>
+<td>乘，除与求余</td>
+</tr>
+<tr>
+<td>+ - !</td>
+<td>一元加，减和逻辑非</td>
+</tr>
+<tr>
+<td>^ ***</td>
+<td>求幂</td>
+</tr>
+<tr>
+<td>++ --</td>
+<td>增加或减少，作为前缀或后缀</td>
+</tr>
+<tr>
+<td>$</td>
+<td>字段引用</td>
+</tr>
+<tr>
+<td>in</td>
+<td>数组成员</td>
+</tr>
+</tbody>
+</table>
 * 过滤第一列大于2的行
 
 ```
