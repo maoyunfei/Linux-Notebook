@@ -46,7 +46,7 @@ PID TTY     TIME CMD
 **显示指定用户信息**
 
 ```
-# ps -u root //显示root进程用户信息
+# ps -u root 显示root进程用户信息
 
  PID TTY     TIME CMD
   1 ?    00:00:02 init
@@ -64,7 +64,7 @@ PID TTY     TIME CMD
 **显示所有进程信息，连同命令行**
 
 ```
-# ps -ef //显示所有命令，连带命令行
+# ps -ef 显示所有命令，连带命令行
 
 UID    PID PPID C STIME TTY     TIME CMD
 root     1   0 0 10:22 ?    00:00:02 /sbin/init
