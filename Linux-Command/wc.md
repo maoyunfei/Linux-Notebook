@@ -41,6 +41,7 @@ use security applications, as well as how the applcations work and why they are 
 
 ```
 $ wc testfile           # testfile文件的统计信息
+
 3 92 598 testfile       # testfile文件的行数为3、单词数92、字节数598
 ```
 
