@@ -27,6 +27,7 @@ Linux grep命令用于查找文件里符合条件的字符串。
 * -l或--file-with-matches 列出文件内容符合指定的范本样式的文件名称。
 * -L或--files-without-match 列出文件内容不符合指定的范本样式的文件名称。
 * -n或--line-number 在显示符合范本样式的那一列之前，标示出该列的列数编号。
+* **-o 输出每一行中所有符合条件的内容**
 * -q或--quiet或--silent 不显示任何信息。
 * **-r或--recursive 此参数的效果和指定"-d recurse"参数相同**。
 * -s或--no-messages 不显示错误信息。
