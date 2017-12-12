@@ -56,7 +56,7 @@ IO.) Rather than
 /etc/acpi/events/thinkpad-cmos:action=/usr/sbin/thinkpad-keys--update 
 ```
 ```
-$ grep -v test* #查找文件名中包含test 的文件中不包含test的行
+$ grep -v test *test* #查找文件名中包含test 的文件中不包含test的行
 
 testfile1:helLinux!  
 testfile1:Linis a free Unix-type operating system.  
