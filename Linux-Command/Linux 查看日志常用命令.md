@@ -50,7 +50,7 @@ cat /var/log/mail.log
 less [参数] 文件 
 ```
 
-**参数说明：**
+参数说明：
 
 * -b <缓冲区大小> 设置缓冲区的大小
 * -e 当文件显示结束后，自动离开
@@ -122,7 +122,7 @@ less [参数] 文件
 more [-dlfpcsu] [-num] [+/pattern] [+linenum] [fileNames..]
 ```
 
-**参数说明：**
+参数说明：
 
 * -num 一次显示的行数
 * -d 提示使用者，在画面下方显示 [Press space to continue, 'q' to quit.] ，如果使用者按错键，则会显示 [Press 'h' for instructions.] 而不是 '哔' 声
