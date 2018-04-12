@@ -4,7 +4,7 @@
 
 `tail`命令可以用来查看一个文件内容。常用的参数`-f`常用于查阅正在改变的日志文件，常用的参数`-n`用于从文件的最后n行开始查阅。
 
-### 实例
+#### 实例
 
 * 查看日志文件的最后100行
 
@@ -44,7 +44,7 @@ cat /var/log/mail.log
 
 `less`命令可以用来随意浏览文件，而且`less`在查看之前不会加载整个文件。
 
-### 语法
+#### 语法
 
 ```sh
 less [参数] 文件 
@@ -79,7 +79,7 @@ less [参数] 文件
 * [pagedown]： 向下翻动一页
 * [pageup]： 向上翻动一页
 
-### 附加备注
+#### 附加备注
 
 1. 全屏导航
 
@@ -116,7 +116,7 @@ less [参数] 文件
 
 `more`以一页一页的形式显示，更方便使用者逐页阅读。
 
-### 语法
+#### 语法
 
 ```sh
 more [-dlfpcsu] [-num] [+/pattern] [+linenum] [fileNames..]
@@ -136,7 +136,7 @@ more [-dlfpcsu] [-num] [+/pattern] [+linenum] [fileNames..]
 * +num 从第 num 行开始显示
 * fileNames 欲显示内容的文档，可为复数个数
 
-### 实例
+#### 实例
 
 * 逐页显示 testfile 文档内容，如有连续两行以上空白行则以一行空白行显示。
 
@@ -150,7 +150,7 @@ more [-dlfpcsu] [-num] [+/pattern] [+linenum] [fileNames..]
 	more +20 testfile
 	```
 
-### 常用操作命令
+#### 常用操作命令
 
 * Enter 向下n行，需要定义。默认为1行
 * Ctrl+F 向下滚动一屏
